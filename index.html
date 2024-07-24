@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="desktop-nav">
+        <div class="logo">Neelmani</div>
+        <div>
+            <ul class="links">
+                <li class="items"><a href="#about">About</a></li>
+                <li class="items"><a href="#experience">Experience</a></li>
+                <li class="items"><a href="#projects">Projects</a></li>
+                <li class="items"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="hamburger-nav">
+        <div class="logo">Neelmani</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li class="items"><a href="#about" onclick="togglemenu()">About</a></li>
+                <li class="items"><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li class="items"><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li class="items"><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container"><img src="./images/profile.jpg" alt="Neelmani Profile Pic"
+                class="profile-pic"></div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Neelmani Singh Bisht</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <img src="./images/linkedin.png" alt="linkedin" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/neelmani-singh-bisht-997259275/'">
+                <img src="./images/instagram.png" alt="instagram" class="icon"
+                    onclick="location.href='https://www.instagram.com/neelu.in.wildlife?igsh=dHhnMDQ5YzB1a3Zk/'">
+                <img src="./images/twitter.png" alt="x" class="icon"
+                    onclick="location.href='https://x.com/neelmani_bisht?t=-keWy8Idfv_CRN5cUdiZqA&s=09/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container ">
+                <img src="./images/profile2.jpg" alt="Profile Pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Experience</h3>
+                        <p>Fresher <br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <h3>Education</h3>
+                        <p>Masters of Computer Application (MCA) <br>B.Sc. Information Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">I am Neelmani Singh Bisht, a dedicated and creative front-end developer with
+                    proficiency in HTML, CSS, JavaScript, and React.js. As a fresher, I bring a strong passion for web
+                    development and design, coupled with a commitment to creating intuitive and visually appealing user
+                    experiences. I thrive in team settings, enjoying the collaborative process and contributing to a
+                    positive and productive work environment. <br><br>
+
+                    Outside of work, I have a love for adventure, cooking, and caring for animals, all of which enrich
+                    my problem-solving skills and creativity. My people-oriented nature and willingness to help others
+                    make me an effective and cooperative team member, ready to take on new challenges and contribute to
+                    innovative projects.</div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>React</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Additional Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>Cyber Security</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>MS Word</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/star.png" alt="" class="icon">
+                            <div>
+                                <h3>Google Docs/Slides</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse my Projects</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/uttarakhand.png" alt="" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Uttarakhand Tourism Website</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://gleeful-sprinkles-4925e0.netlify.app/'">Go to Site</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/blog.png" alt="" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Blog Web App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://upesfrontend.vercel.app/'">Go to Site</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/apple.png" alt="" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Apple Landing Page</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://admirable-gecko-e9f8c3.netlify.app/'">Go to Site</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./images/email.png" alt="" class="icon contact-icon">
+                <p><a href="mailto:neelmanisinghparihar@gmail.com">neelmanisinghparihar@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./images/linkedin.png" alt="" class="icon contact-icon">
+                <p><a href='https://www.linkedin.com/in/neelmani-singh-bisht-997259275/'>Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="links">
+                    <li class="items"><a href="#about">About</a></li>
+                    <li class="items"><a href="#experience">Experience</a></li>
+                    <li class="items"><a href="#projects">Projects</a></li>
+                    <li class="items"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
